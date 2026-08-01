@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InkGalerie</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    
+    <!-- Luminous Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/luminous-lightbox@2.3.2/dist/luminous-basic.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Script&family=Passions+Conflict&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <!-- Hinweis: Das doppelte "<img <img" habe ich zu einem korrigiert -->
+    <img class="mobile" src="DaturaLogo.png" width="35%" height="auto" style="padding: 1%">
+    <div class="Titel"></div>
+</header>
+
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="About.html">Über mich</a>
+    <a href="Pflege.html">Pflegeanleitung</a>
+    <a href="Erstes.html">Erstes Tattoo?</a>
+    <a href="Impressum.html">Impressum</a>
+</nav>
+
+<div class="tattoos">
+    <a href="blumen.jpg" class="gallery-link"><img src="blumen.jpg"></a>
+    <a href="rosen.jpg" class="gallery-link"><img src="rosen.jpg"></a>
+    <a href="Tiger.jpg" class="gallery-link"><img src="Tiger.jpg"></a>
+    <a href="Sanduhr.jpg" class="gallery-link"><img src="Sanduhr.jpg"></a>
+    <a href="Himbeeren.jpg" class="gallery-link"><img src="Himbeeren.jpg"></a>
+    <a href="widder.jpg" class="gallery-link"><img src="widder.jpg"></a>
+    <a href="fische.jpg" class="gallery-link"><img src="fische.jpg"></a>
+    <a href="Skorpion.jpg" class="gallery-link"><img src="Skorpion.jpg"></a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/luminous-lightbox@2.3.2/dist/Luminous.min.js"></script>
+<script>
+    new LuminousGallery(document.querySelectorAll(".gallery-link"));
+</script>
+
+</body>
+</html>
